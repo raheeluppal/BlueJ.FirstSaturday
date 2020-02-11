@@ -1,5 +1,3 @@
-
-
 import static org.junit.Assert.*;
 import org.junit.After;
 import org.junit.Before;
@@ -50,7 +48,6 @@ public class WriteIFsTest
         writeIFs1.playerDied(true);
         assertEquals("Game Over!", writeIFs1.ss);
     }
-
 
     @Test
     public void TestTherm()
@@ -109,6 +106,3 @@ public class WriteIFsTest
     }
 
 }
-
-
-
